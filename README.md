@@ -13,12 +13,10 @@ It distributes the workload among child processes created via `fork()`, and aggr
 1. **Build:**
    ```bash
    gcc main.c -o backtrack_fork
-Run:
+2. **Run**
+   ./backtrack_fork
+3. **Input**
+   Enter the value for n when prompted (recommended n <= 5 for testing).
 
-Bash
-
-./backtrack_fork
-Input: Enter the value for n when prompted (recommended n <= 5 for testing).
-
-Files
+## Files
 main.c: Complete source code.
